@@ -66,4 +66,11 @@ group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
   gem "selenium-webdriver"
+
+
 end
+
+# React
+gem 'react-source', '0.13.3'
+
+gem "devise", "~> 4.9"
