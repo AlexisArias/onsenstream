@@ -1,0 +1,14 @@
+<h2><%= @movie.title %></h2>
+<div>
+<p><strong>Genre:</strong> <%= @movie.genre %></p>
+<p><strong>Director:</strong> <%= @movie.director %></p>
+<p><strong>Year:</strong> <%= @movie.year %></p>
+<p><strong>Description:</strong> <%= @movie.description %></p>
+<p><strong>Casting:</strong> <%= @movie.casting %></p>
+<p><strong>Duration:</strong> <%= @movie.duration %></p>
+<p><strong>Trailer:</strong> <%= @movie.trailer %></p>
+<p><strong>Image:</strong> <%= @movie.image %></p>
+<p><strong>Platform:</strong> <%= @movie.plateform %></p>
+</div>
+
+<%= link_to "Back to Movies", movies_path %>

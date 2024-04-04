@@ -66,7 +66,8 @@ group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
   gem "selenium-webdriver"
-
+  gem 'byebug', '~> 11.0', group: :development
+  gem 'pry-rails', group: :development
 
 end
 
